@@ -10,10 +10,10 @@
 #include <math.h>
 #include <string.h>
 
-#define DIM                  2
-#define PARTICLE_DISTANCE    0.025
-#define DT                   0.001
-#define OUTPUT_INTERVAL      20
+#define DIM                  2      // 次元
+#define PARTICLE_DISTANCE    0.025  // 初期粒子間距離 l0
+#define DT                   0.001  // 時間刻み幅
+#define OUTPUT_INTERVAL      20     // 計算結果のファイル出力の間隔
 
 /* for three-dimensional simulation */
 /*
@@ -23,8 +23,8 @@
 #define OUTPUT_INTERVAL      2 
 */
 
-#define ARRAY_SIZE           5000
-#define FINISH_TIME          2.0
+#define ARRAY_SIZE           5000   // 粒子数の上限
+#define FINISH_TIME          2.0    // シミュレーションの終了時刻
 #define KINEMATIC_VISCOSITY  (1.0E-6)
 #define FLUID_DENSITY        1000.0 
 #define G_X  0.0      
