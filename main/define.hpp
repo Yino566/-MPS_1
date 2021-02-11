@@ -9,7 +9,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
 #define DIM 2                   // 次元
 #define PARTICLE_DISTANCE 0.025 // 初期粒子間距離 l0
 #define DT 0.001                // 時間刻み幅
